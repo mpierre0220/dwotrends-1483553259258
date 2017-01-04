@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: dwotrends
+  host: dwotrends
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-ng
+  - Cloudant NoSQL DB-gb
